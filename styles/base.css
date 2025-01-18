@@ -1,0 +1,65 @@
+#aside {
+  width: 10%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  background-color: #007bff; /* Colore di sfondo */
+}
+
+#main {
+  width: 90%;
+  float: right;
+}
+
+.titolo{
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+table {
+  width: 100%;
+  padding-right: 5%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+table{
+  width: 100%; /* larghezza dello schermo */
+}
+
+button {
+  padding: 5px;
+  font-size: 16px; /* dimensione del testo */
+  font-weight: bold; /* spessore del testo */
+  color: #fff; /* colore del testo */
+  background-color: #007bff; /* colore di sfondo */
+  border: none; /* rimuove il bordo */
+  border-radius: 5px; /* bordi arrotondati */
+  cursor: pointer; /* cursore a forma di mano al passaggio del mouse */
+  transition: background-color 0.3s; /* effetto di transizione */
+  width: 100%;
+}
+
+button:hover {
+  background-color: #0056b3; /* colore di sfondo al passaggio del mouse */
+  font-size: 120%;
+}
+
+button:active {
+  background-color: #004080; /* colore di sfondo al click */
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 10px;
+}

@@ -1,0 +1,11 @@
+.information-container{
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.information {
+  font-family: Arial, sans-serif; /* Imposta il tipo di carattere */
+  font-size: 16px; /* Imposta la dimensione del carattere */
+  color: #333; /* Imposta il colore del testo */
+  line-height: 1.5; /* Imposta l'altezza della riga */
+  margin-bottom: 20px; /* Imposta il margine inferiore */
+}

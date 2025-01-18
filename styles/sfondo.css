@@ -1,0 +1,8 @@
+html {
+  background-image: url("/immagini/sfondo.jpg"); /* Immagine di sfondo */
+  /*background-color: #33FFFF;/**/
+  background-size: cover; /* Adatta l'immagine per coprire l'intera area del body */
+  background-position: center; /* Posiziona l'immagine al centro */
+  background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
+  background-attachment: fixed; /* Fissa l'immagine di sfondo durante lo scrolling */
+}

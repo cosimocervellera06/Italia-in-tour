@@ -1,0 +1,21 @@
+.counter {
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  color: #333;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;  
+
+}
+
+.counter span {
+  font-weight: bold;
+  color: #ff0000; /* Colore blu */
+}
+
+.counter #total {
+  color: #ff0000; /* Colore verde */
+}

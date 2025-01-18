@@ -1,0 +1,16 @@
+.posizione-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  height: 500px;
+  float: right;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.posizione {
+  position: relative;
+  width: 85%;
+  height: 100%;
+}

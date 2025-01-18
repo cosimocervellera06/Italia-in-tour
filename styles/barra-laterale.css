@@ -1,0 +1,55 @@
+#navbar {
+  width: 100%; /* larghezza della barra di navigazione */
+  height: 100%;
+  display: flex; /* utilizza il layout flexbox */
+  justify-content: center; /* allinea gli elementi lungo l'asse orizzontale */
+  align-items: center; /* allinea gli elementi lungo l'asse verticale */
+}
+
+nav ul {
+  list-style-type: none; /* rimuove i punti elenco */
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin-left: 10px;
+  margin-bottom: 8px; /* spazio tra gli elementi */
+  font-weight: bold; /* rendi il testo in grassetto */
+}
+
+nav ul li a {
+  text-decoration: none; /* rimuove la sottolineatura del link */
+  color: #333; /* colore del testo */
+  display: block; /* rende gli elementi link blocco */
+}
+
+nav ul li a:hover {
+  background-color: #ddd; /* colore di sfondo al passaggio del mouse */
+}
+
+#toggleButton {
+  z-index: 2;
+  position: fixed; /* Posizione fissa */
+  left: 9%;
+  bottom: 50%; /* Distanza dal fondo della finestra */
+  background-color: #007bff; /* Colore di sfondo */
+  width: 4%;
+  color: white; /* Colore del testo */
+  border: none; /* Rimuove il bordo */
+  height: 50px;
+  text-align: center;
+  width: 50px;
+  border-top-right-radius: 50%; /* Bordo arrotondato solo a destra */
+  border-bottom-right-radius: 50%; /* Bottom radious */
+  padding: 10px 20px; /* Spaziatura interna */
+  font-size: 16px; /* Dimensione del testo */
+  transition: background-color 0.3s; /* Transizione del colore di sfondo */
+}
+
+#toggleButton:hover {
+  background-color: #0056b3; /* Cambia colore al passaggio del mouse */
+}
+.toggleContainer{
+  width: 5%;
+}
