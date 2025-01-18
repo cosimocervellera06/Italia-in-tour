@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Italia in tour</title>
+    <link rel="icon" type="image/png" href="immagini/logo.png">
+    <link href="styles/carosello.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/posizione.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/sfondo.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/contatore.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/information.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/base.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/barra-laterale.css" rel="stylesheet" type="text/css"/>
+    <script src="scripts/script.js"></script>
+  </head>
+  
+  <aside id="aside">
+    <!--barra laterale-->
+    <nav id="navbar">
+      <ul>
+        <li><button class="city" value=0>Ancona</button></li>
+        <li><button class="city" value=1>Aosta</button></li>
+        <li><button class="city" value=2>L'Aquila</button></li>
+        <li><button class="city" value=3>Bari</button></li>
+        <li><button class="city" value=4>Bologna</button></li>
+        <li><button class="city" value=5>Cagliari</button></li>
+        <li><button class="city" value=6>Campobasso</button></li>
+        <li><button class="city" value=7>Catanzaro</button></li>
+        <li><button class="city" value=8>Firenze</button></li>
+        <li><button class="city" value=9>Genova</button></li>
+        <li><button class="city" value=10>Milano</button></li>
+        <li><button class="city" value=11>Napoli</button></li>
+        <li><button class="city" value=12>Palermo</button></li>
+        <li><button class="city" value=13>Perugia</button></li>
+        <li><button class="city" value=14>Potenza</button></li>
+        <li><button class="city" value=15>Roma</button></li>
+        <li><button class="city" value=16>Torino</button></li>
+        <li><button class="city" value=17>Trento</button></li>
+        <li><button class="city" value=18>Trieste</button></li>
+        <li><button class="city" value=19>Venezia</button></li>
+      </ul>
+    </nav>
+  </aside>
+  <main id="main">
+    <body>
+      <h1 class="titolo">I capoluoghi d'Italia</h1>
+      <table>
+        <tr>
+          <td class="toggleContainer">
+            <button id="toggleButton">&#9664;</button> 
+          </td>
+          <td>
+            <div class="carosello-container">
+              <div class="carosello"></div>  
+              <div class="pulsanti-container">
+                <button id="prev-button" class="cambio-button">&#9664;</button>
+                <button id="next-button" class="cambio-button">&#9654;</button>
+                <div class="counter">
+                  <span id="current">1</span> / <span id="total">20</span>
+                </div>
+              </div>
+            </div>
+            <div class="posizione-container">
+              <div class="posizione"></div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td width="4%"></td>
+          <td colspan="2">
+            <div class="information-container">
+              <p class="information">
+                Ancona è una città portuale situata lungo la costa adriatica dell'Italia centrale. Fondata dai Greci nell'VIII secolo a.C., ha una lunga storia di scambi commerciali con l'Oriente. Il suo porto naturale, protetto dalle intemperie, è stato un importante centro di navigazione fin dall'antichità. Oggi, oltre alla sua attività portuale, Ancona offre una vivace scena culturale con numerosi musei, teatri e festival annuali.
+              </p>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </body>
+  </main>
+ <footer>
+   Lavoro fatto da:
+   Cosimo Cervellera |
+   Cristian Cavallo |
+   Francesco Sardelli |
+   Angelo Prete |
+   Mattia Arseni |
+   Cosimo Barbarello
+ </footer> 
+</html>
